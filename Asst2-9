@@ -1,0 +1,18 @@
+# removal of dict. student
+# using del
+
+# Initializing dictionary
+test_dict = {"Arshin" : 22, "Anu" : 21, "Mohsin" : 21, "Hrshi" : 21}
+
+# Printing dictionary before removal
+print ("The dictionary before performing remove is : " + str(test_dict))
+
+# Using del to remove a dict
+# removes Mani
+del test_dict['Mohsin']
+
+# Printing dictionary after removal
+print ("The dictionary after remove is : " + str(test_dict))
+del test_dict['Anu']
+o/p:The dictionary before performing remove is : {'Arshin': 22, 'Anu': 21, 'Mohsin': 21, 'Hrshi': 21}
+The dictionary after remove is : {'Arshin': 22, 'Anu': 21, 'Hrshi': 21
